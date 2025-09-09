@@ -52,3 +52,11 @@ bash
 ---
 
 ## File Structure
+
+├── Stock_Price_Prediction.ipynb  # Notebook with the full code and analysis
+├── app.py                        # The Streamlit application script
+├── lstm_full_model.keras         # The trained and saved Keras model
+├── predictions.csv               # Sample predictions on the test set
+├── requirements.txt              # Required Python packages
+├── report.pdf                    # Project summary report
+└── README.md                     # This file
