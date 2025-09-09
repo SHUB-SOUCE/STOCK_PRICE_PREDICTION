@@ -1,13 +1,14 @@
-# Stock Price Prediction
-
-## About the Project
-This project aims to predict stock prices using machine learning techniques applied to historical financial data.  
-It has been implemented in Jupyter Notebook, where data preprocessing, visualization, and feature engineering were carried out before training predictive models.  
-The work so far has included building and evaluating models that capture stock price trends with reasonable accuracy.  
-Currently, the project is focusing on improving performance through hyperparameter tuning and exploring advanced models for better forecasting results.
-
-## Technologies Used
-- Python  
-- Scikit-learn  
-- TensorFlow / Keras (if deep learning models are used)  
-- NumPy, Pandas, Matplotlib, Seaborn  
+# Stock Price Trend Prediction with LSTM
+## How to run
+1. Create virtual environment and install requirements: `pip install -r requirements.txt`
+2. Run the notebook `Stock_Price_Prediction.ipynb` step-by-step to train the model. After training
+the best model weights are saved to `model_weights.h5` and `lstm_full_model/`.
+3. (Optional) Run the Streamlit app: `streamlit run app.py` and input a ticker.
+## Files
+- Stock_Price_Prediction.ipynb
+- model_weights.h5
+- lstm_full_model/
+- predictions.csv
+- app.py
+- requirements.txt
+- report.pdf
